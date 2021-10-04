@@ -23,6 +23,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
@@ -56,6 +57,8 @@ public class AddArtistActivity extends AppCompatActivity implements DatePickerDi
     TextInputEditText etLugarNacimiento;
     @BindView(R.id.etNotas)
     TextInputEditText etNotas;
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
 
     private Artista mArtista;
     private Calendar mCalendar;
@@ -72,6 +75,7 @@ public class AddArtistActivity extends AppCompatActivity implements DatePickerDi
     }
 
     private void configActionBar() {
+        setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
