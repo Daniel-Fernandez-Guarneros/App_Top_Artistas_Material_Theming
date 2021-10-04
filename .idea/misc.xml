@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/drawable/ic_check.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/drawable/ic_image.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/drawable/ic_insert_invitation.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/drawable/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/drawable/ic_place.xml" value="0.1" />
+        <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/layout/activity_add_artist.xml" value="0.1" />
         <entry key="..\:/Users/danie/AndroidStudioProjects/MDTop/app/src/main/res/layout/item_artist.xml" value="0.264" />
       </map>
     </option>
